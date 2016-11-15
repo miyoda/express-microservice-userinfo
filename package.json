@@ -1,0 +1,50 @@
+{
+  "name": "express-microservice-userinfo",
+  "version": "1.0.3",
+  "description": "express microservice for store user info/profile/settings",
+  "main": "index.js",
+  "scripts": {
+    "start": "node example/app.js",
+    "debug": "node-debug example/app.js",
+    "dev": "nodemon example/app.js",
+    "test": "echo \"Warn: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyodaexpress-microservice-userinfoh.git"
+  },
+  "keywords": [
+    "express",
+    "microservice",
+    "mongo",
+    "mongoose",
+    "user",
+    "profile",
+    "settings"
+  ],
+  "author": "=",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miyodexpress-microservice-userinfoth/issues"
+  },
+  "homepage": "https://github.com/miyoexpress-microservice-userinfouth#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "concat-unique": "^1.0.0",
+    "express": "^4.14.0",
+    "express-jwt": "^5.1.0",
+    "express-middleware-apikey": "^1.0.2",
+    "extend": "^3.0.0",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.16.6",
+    "mongoose": "^4.6.6",
+    "swagger-jsdoc": "^1.8.1",
+    "swagger-tools": "^0.10.1",
+    "swagger-utils": "^1.0.5",
+    "yyyy-mm-dd": "^1.0.1",
+    "resourcejs": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
